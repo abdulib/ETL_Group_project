@@ -4,10 +4,10 @@ Extract Transform and Load
 
 
 ### Name
-•	Ibrahim Abdulrahmon
-•	Susan Murphey
-•	Renato Sanchez
-•	Steve Darby
+# Ibrahim Abdulrahmon
+# Susan Murphey
+# Renato Sanchez
+# Steve Darby
 
 ### Datasets
 •	Senate Election Results – Web Scrapping http://elections.nbcnews.com/ns/politics/2012/all/senate/
