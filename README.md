@@ -10,10 +10,9 @@ Extract Transform and Load
 * Steve Darby
 
 ### Datasets
-•	Senate Election Results – Web Scrapping http://elections.nbcnews.com/ns/politics/2012/all/senate/
-•	Credit Card Debt – Web Scrapping
-https://www.valuepenguin.com/average-credit-card-debt
-•	Bankruptcy by state - Web Scrapping -  https://www.worldatlas.com/articles/highest-personal-bankruptcy-rates-in-the-us-by-state.html
+•	[Senate Election Results](http://elections.nbcnews.com/ns/politics/2012/all/senate/) – Web Scrapping
+•	[Credit Card Debt](https://www.valuepenguin.com/average-credit-card-debt) – Web Scrapping
+•	[Bankruptcy by state](https://www.worldatlas.com/articles/highest-personal-bankruptcy-rates-in-the-us-by-state.html)
 •	 Congress Bill Introduction Data on Student, Consumer, Medical Debt- CSV
 
 
