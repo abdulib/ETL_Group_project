@@ -1,0 +1,24 @@
+auto_df = pd.read_excel(file, sheet_name='auto', skiprows=3, index_col=None, usecols = "A,P:Q")
+auto_df.rename(columns={'Q4_2017': '2017','Q4_2018':'2018'}, inplace = True)
+
+cc_df = pd.read_excel(file, sheet_name='creditcard', skiprows=3, index_col=None, usecols = "A,P:Q")
+cc_df.rename(columns={'Q4_2017': '2017','Q4_2018':'2018'}, inplace = True)
+
+mortg_df = pd.read_excel(file, sheet_name='mortgage', skiprows=3, index_col=None, usecols = "A,P:Q")
+mortg_df.rename(columns={'Q4_2017': '2017','Q4_2018':'2018'}, inplace = True)
+
+stloan_df = pd.read_excel(file, sheet_name='studentloan', skiprows=3, index_col=None, usecols = "A,P:Q")
+stloan_df.rename(columns={'Q4_2017': '2017','Q4_2018':'2018'}, inplace = True)
+
+autod_df = pd.read_excel(file, sheet_name='auto_delinq', skiprows=3, index_col=None, usecols = "A,P:Q")
+autod_df.rename(columns={'Q4_2017': '2017','Q4_2018':'2018'}, inplace = True)
+
+ccd_df = pd.read_excel(file, sheet_name='creditcard_delinq', skiprows=3, index_col=None, usecols = "A,P:Q")
+ccd_df.rename(columns={'Q4_2017': '2017','Q4_2018':'2018'}, inplace = True)
+
+mortgd_df = pd.read_excel(file, sheet_name='mortgage_delinq', skiprows=3, index_col=None, usecols = "A,P:Q")
+mortgd_df.rename(columns={'Q4_2017': '2017','Q4_2018':'2018'}, inplace = True)
+
+stloand_df = pd.read_excel(file, sheet_name='studentloan_delinq', skiprows=3, index_col=None, usecols = "A,P:Q")
+stloand_df.rename(columns={'Q4_2017': '2017','Q4_2018':'2018'}, inplace = True)
+
