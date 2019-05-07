@@ -18,7 +18,7 @@ CREATE TABLE congress_bills_data(
     PRIMARY KEY (id)
     );
 
-LOAD DATA INFILE '/ETL_Group_project/data/clean/congress_bills_on_debt_data.csv' 
+LOAD DATA INFILE 'c:/ETL_Group_project/data/clean/congress_bills_on_debt_data.csv' 
 INTO TABLE congress_bills_data
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
@@ -41,17 +41,18 @@ Create table election_data  (
      incumbent   varchar(50),
      is_incumbent  boolean, 
      duplicate     boolean,
-     otherthanna   boolean,
+     otherthanna   boolean
      PRIMARY KEY (id)
 );
 
 
-LOAD DATA LOCAL INFILE '/ETL_Group_project/data/clean/1976-2018-senate.csv' 
+LOAD DATA INFILE 'c:/ETL_Group_project/data/clean/1976-2018-senate.csv' 
 INTO TABLE election_data
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
+
 
 CREATE TABLE debt (
     id INT NOT NULL AUTO_INCREMENT,
@@ -67,10 +68,11 @@ CREATE TABLE debt (
     PRIMARY KEY (id)
 );
 
-LOAD DATA INFILE '/ETL_Group_project/data/clean/debt.csv' 
+LOAD DATA INFILE 'c:/ETL_Group_project/data/clean/debt.csv' 
 INTO TABLE debt
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
-
+    
+    
