@@ -1,8 +1,0 @@
-auto_df=auto_df.drop(['Q4_2017','Q4_2018'], axis=1)
-cc_df=cc_df.drop(['Q4_2017','Q4_2018'], axis=1)
-mortg_df=mortg_df.drop(['Q4_2017','Q4_2018'], axis=1)
-stloan_df=stloan_df.drop(['Q4_2017','Q4_2018'], axis=1)
-autod_df=autod_df.drop(['Q4_2017','Q4_2018'], axis=1)
-ccd_df=ccd_df.drop(['Q4_2017','Q4_2018'], axis=1)
-mortgd_df=mortgd_df.drop(['Q4_2017','Q4_2018'], axis=1)
-stloand_df=stloand_df.drop(['Q4_2017','Q4_2018'], axis=1)
