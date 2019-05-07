@@ -1,4 +1,4 @@
-Date Introduced,Bill number,Bill Name,Senator Details,Last Name,First Name,Party,state_po,Number of Cosponsors
+Date_Introduced,Bill_number,Bill_Name,Senator_Details,Last_Name,First_Name,Party,state_po,Number_of_Cosponsors
 11/29/2017,S.2169,Student Right to Know Before You Go Act of 2017,"Sen. Wyden, Ron [D-OR]","Wyden,",Ron,D,OR,3
 04/07/2017,S.888,Understanding the True Cost of College Act of 2017,"Sen. Grassley, Chuck [R-IA]","Grassley,",Chuck,R,IA,9
 03/30/2017,S.799,Dynamic Repayment Act of 2017,"Sen. Warner, Mark R. [D-VA]","Warner,",Mark,D,VA,1
