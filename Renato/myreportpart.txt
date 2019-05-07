@@ -1,0 +1,28 @@
+Debt Data
+
+Extract:
+ 
+Download excel file (ConsDebt2003-2018XStatePerFed.xlsx) from ??? (Susan's drop box)
+Description:
+The workbook had tabs with states in rows and years as columns: 2003-2018. The sheets used were:
+-Auto debt
+-Mortgage debt
+-Credit Card debt
+-Student Loan debt
+-Auto debt delinquency percentage
+-Mortgage debt delinquency percentage
+-Credit Card debt delinquency percentage
+-Student Loan debt delinquency percentage
+
+Transform:
+
+Read each sheet into a pandas dataframe. 
+Limited DataFrames to years 2017-2018 on input
+Eliminated Puerto Rico and "Total" rows, keeping just the states.
+Averaged the values of 2017 and 2018 in all dataframes to a new column. 
+Dropped the original columns and set the state column as the index prior to merging.
+Merged the 8 dataframes into one with 8 columns. 
+
+Load:
+
+Wrote the dataframe as a collection to the VoterDebtDB in Mongo.
