@@ -25,3 +25,5 @@ Senators want to know whether to campaign on or introduce legislation on consume
 We are going to build a non-relational database
 *	No huge amount of data (500 rows)
 *	Little to gain from normalization as we are looking at state-level data
+REPORT:
+ETLreport.AbdulRenDarMurph.pdf
